@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:app="http://schemas.android.com/apk/res-auto"
+   xmlns:tools="http://schemas.android.com/tools"
+   android:layout_width="match_parent"
+   android:layout_height="match_parent"
+   android:background="@color/back"
+   tools:context=".MainActivity">
+
+
+   <EditText
+       android:id="@+id/names2"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="160dp"
+       android:ems="10"
+       android:hint="Enter Date"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.154"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent" />
+
+   <Button
+       android:id="@+id/button2"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="604dp"
+       android:backgroundTint="@color/black"
+       android:text="SUBMIT"
+       android:textColor="@color/back"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.461"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent" />
+
+   <TextView
+       android:id="@+id/gender2"
+       android:layout_width="83dp"
+       android:layout_height="32dp"
+       android:layout_marginTop="52dp"
+       android:text="Name"
+       android:textColor="@color/black"
+       android:textSize="18sp"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.085"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent" />
+
+   <TextView
+       android:id="@+id/title"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="12dp"
+       android:text="@string/title"
+       android:textColor="@color/white"
+       android:textSize="28sp"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.446"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent" />
+
+   <EditText
+       android:id="@+id/names"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="84dp"
+       android:ems="10"
+       android:hint="Enter name"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.139"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent" />
+
+   <TextView
+       android:id="@+id/gender6"
+       android:layout_width="83dp"
+       android:layout_height="32dp"
+       android:layout_marginTop="140dp"
+       android:text="DOB"
+       android:textColor="@color/black"
+       android:textSize="18sp"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.094"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent" />
+
+   <TextView
+       android:id="@+id/gender3"
+       android:layout_width="151dp"
+       android:layout_height="30dp"
+       android:layout_marginTop="300dp"
+       android:text="Phone number"
+       android:textColor="@color/black"
+       android:textSize="18sp"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.107"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent" />
+
+   <TextView
+       android:id="@+id/gender5"
+       android:layout_width="151dp"
+       android:layout_height="30dp"
+       android:layout_marginTop="484dp"
+       android:text="Languages known"
+       android:textColor="@color/black"
+       android:textSize="18sp"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.107"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent" />
+
+   <CheckBox
+       android:id="@+id/conditions"
+       android:layout_width="100dp"
+       android:layout_height="38dp"
+       android:layout_marginTop="516dp"
+       android:backgroundTint="#D500F9"
+       android:buttonTint="@color/white"
+       android:text="English"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.09"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent" />
+
+   <CheckBox
+       android:id="@+id/conditions4"
+       android:layout_width="100dp"
+       android:layout_height="38dp"
+       android:layout_marginTop="552dp"
+       android:backgroundTint="#D500F9"
+       android:buttonTint="@color/white"
+       android:text="Japanese"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.411"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent" />
+
+   <RadioGroup
+       android:id="@+id/radioGroup"
+       android:layout_width="254dp"
+       android:layout_height="46dp"
+       android:layout_marginTop="244dp"
+       android:orientation="horizontal"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.197"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent">
+
+
+       <RadioButton
+           android:id="@+id/radioButton"
+           android:layout_width="81dp"
+           android:layout_height="34dp"
+           android:buttonTint="@color/white"
+           android:text="Male"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toTopOf="parent" />
+
+       <RadioButton
+           android:id="@+id/female"
+           android:layout_width="89dp"
+           android:layout_height="31dp"
+           android:buttonTint="@color/white"
+           android:text="Female"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintHorizontal_bias="0.655"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toTopOf="parent" />
+
+       <RadioButton
+           android:id="@+id/other"
+           android:layout_width="78dp"
+           android:layout_height="33dp"
+           android:buttonTint="@color/white"
+           android:text="Other"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintHorizontal_bias="0.949"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toTopOf="parent" />
+   </RadioGroup>
+
+   <TextView
+       android:id="@+id/gender"
+       android:layout_width="83dp"
+       android:layout_height="32dp"
+       android:layout_marginTop="208dp"
+       android:text="Gender"
+       android:textColor="@color/black"
+       android:textSize="18sp"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.094"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent" />
+
+   <EditText
+       android:id="@+id/address"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="424dp"
+       android:ems="10"
+       android:hint="Enter Address"
+       android:inputType="text"
+       android:maxLines="4"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.139"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent" />
+
+   <EditText
+       android:id="@+id/Phone"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="332dp"
+       android:ems="10"
+       android:hint="Enter phone number"
+       android:inputType="phone"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.139"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent" />
+
+   <CheckBox
+       android:id="@+id/conditions2"
+       android:layout_width="100dp"
+       android:layout_height="38dp"
+       android:layout_marginTop="516dp"
+       android:backgroundTint="#D500F9"
+       android:buttonTint="@color/white"
+       android:text="Tamil"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.418"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent" />
+
+   <CheckBox
+       android:id="@+id/conditions3"
+       android:layout_width="100dp"
+       android:layout_height="38dp"
+       android:layout_marginTop="552dp"
+       android:backgroundTint="#D500F9"
+       android:buttonTint="@color/white"
+       android:text="French"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.09"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent" />
+
+   <TextView
+       android:id="@+id/gender4"
+       android:layout_width="151dp"
+       android:layout_height="30dp"
+       android:layout_marginTop="392dp"
+       android:text="Address"
+       android:textColor="@color/black"
+       android:textSize="18sp"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.107"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
