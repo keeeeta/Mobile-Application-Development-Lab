@@ -13,3 +13,9 @@ Specifications:
 
 ## Exercise 2
 Develop an application to simulate a keyboard
+
+## Exercise 3
+Create a Calculator Application using Andriod with the operations specified in the diagram. The layout 
+of the calculator should look as given below. Use listeners for the buttons to achieve the desired output
+![image](https://user-images.githubusercontent.com/72556340/131883711-5cf621d5-fa48-454c-8f41-68f199cb39e0.png)
+
