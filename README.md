@@ -10,3 +10,6 @@ Specifications:
 5. Mobile number in text
 6. Gender radio buttons
 7. Languages known in check boxes
+
+## Exercise 2
+Develop an application to simulate a keyboard
