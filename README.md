@@ -1,7 +1,7 @@
 # Mobile-Application-Development-Lab
 ## Exercise 1
 Develop an android application using GUI controls for creating personal information page 
-using the below specifications. Apply formatting using different styles of Font and Colors.
+using the below specifications. Apply formatting using different styles of Font and Colors.<br/>
 Specifications:
 1. Name in text
 2. DOB in date picker
