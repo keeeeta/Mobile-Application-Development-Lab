@@ -1,4 +1,5 @@
 # Mobile-Application-Development-Lab
+This repository consists of my lab exercises for Mobile Applicatopn development lab.
 ## Exercise 1
 Develop an android application using GUI controls for creating personal information page 
 using the below specifications. Apply formatting using different styles of Font and Colors.<br/>
